@@ -27,12 +27,12 @@ const HeroSection = () => {
           Advancing Knowledge Through Research
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-          <Button size="lg" variant="secondary" className="font-heading font-bold text-sm px-8">
-            Submit Your Manuscript
-          </Button>
-          <Button size="lg" variant="outline" className="font-heading font-semibold text-sm px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            Explore Our Publications
-          </Button>
+            <Button size="lg" variant="secondary" className="font-heading font-bold text-sm px-8">
+              Submit Your Manuscript
+            </Button>
+            <Button size="lg"  className="font-heading font-semibold text-sm px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
+              Explore Our Publications
+            </Button>
         </div>
       </div>
     </section>
